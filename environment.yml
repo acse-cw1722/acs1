@@ -1,0 +1,14 @@
+name: acs1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+ - pip
+ - ipython
+ - jupyter
+ - numpy
+ - scipy
+ - pandas
+ - matplotlib
+ - pip:
+   - -r requirements.txt
